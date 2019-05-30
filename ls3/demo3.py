@@ -10,3 +10,18 @@
 Author: liwb
 Version: 0.0.1
 """
+
+score = float(input('请输入分数 '))
+
+if score > 99:
+    grade = 'A'
+elif score >= 80:
+    grade = 'B'
+elif score >= 70:
+    grade = 'C'
+elif score >= 60:
+    grade = 'D'
+else:
+    grade = 'E'
+
+print('对应等级', grade)
